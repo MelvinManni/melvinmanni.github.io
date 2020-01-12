@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <title>Melvin-Manni Portfolio</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav" id="nav">
+           <div class="container">
+                <div class="navLogo">
+                    <span>Melvin</span>
+                </div>
+                
+                <div class="nav-items">
+                    <button class="toggle" id="open-btn"><i class="fas fa-bars"></i></button>
+                    <ul class="nav-item">
+                        <li class="nav-list">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                
+                        <li class="nav-list">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                
+                        <li class="nav-list">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                
+                        <li class="nav-list">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+<!--Mobile Menu-->
+        <div class="mob-overlay" id="mob-overlay">
+            <button class="toggle" id="close-btn" ><i class="fas fa-times"></i></button>
+            <div class="wrapper">
+                <div class="inline">
+                    <div class="mob-item" id="mob-item">
+                    
+                        <a onclick="closeOv()" href="#portfolio" class="mob-link">Portfolio</a>
+                    
+                        <a onclick="closeOv()" href="#about" class="mob-link">About</a>
+                    
+                        <a onclick="closeOv()" href="#projects" class="mob-link">Projects</a>
+                    
+                        <a onclick="closeOv()" href="#contact" class="mob-link">Contact</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section class="welcome-section">
+        <div class="welcome-text">
+            <h3>Hi there, I'm </h3>
+            <h1>Melvin Kosisochukwu</h1>
+            <h3>A Software Enginner</h3>
+        </div>
+
+        <div class="buttons">
+            <span>Hire me lets build an online presence for your dreams and business <i class="far fa-smile-wink"></i></span>
+            <button class="btn"><a class="btn" href="mailto:melvinnnamani@gmail.com">Hire Me</a></button>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio">
+            <div class="title">
+                <h3> Portfolio</h3>
+            </div>
+
+            <div class="skill-set">
+                <div class="skill-div">
+                    <h4 class="skill-head">HTML <i class="fab fa-html5"></i></h4>
+                    <p class="skill-level">- Proficient</p>
+                </div>
+                <div class="skill-div">
+                    <h4 class="skill-head">CSS <i class="fab fa-css3-alt"></i></h4>
+                    <p class="skill-level">- Proficient</p>
+                </div>
+                <div class="skill-div">
+                    <h4 class="skill-head">Bootstrap <i class="fab fa-bootstrap"></i></h4>
+                    <p class="skill-level">- Proficient</p>
+                </div>
+                <div class="skill-div">
+                    <h4 class="skill-head">Sass <i class="fab fa-sass"></i></h4>
+                    <p class="skill-level">- Intermediate</p>
+                </div>
+                <div class="skill-div">
+                    <h4 class="skill-head">Javascript <i class="fab fa-js-square"></i></h4>
+                    <p class="skill-level">- Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="inline">
+            <div class="container">
+                <div class="seperator"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="about-section">
+        <div class="about">
+            <div class="title">
+                <h3>About Me</h3>
+            </div>
+            <div class="wrapper">
+                <div class="inline">
+                    <div class="about-text">
+                        <p>It Works !! <br>
+                            <br>
+                            <br>
+                            I started my programming journey in 2018 but before then i have dabbled a little and ended up pulling back.
+                            Programming
+                            is exactly what you think it is... writing beautiful codes that work and trying to get rid of as much bugs as
+                            possible
+                            while being powered by coffee. That is not exactly why i want to be a Software Enginneer/developer, the real
+                            reason
+                            why
+                            i love what i do is because of those little moments when you solve a problem or learn something new amid a
+                            project.
+                            The
+                            joy and trophy of every programmer is writing a code and it works! you feel this indescribable happiness in you,
+                            if
+                            you
+                            have ever built anything, no matter how small you probably understand what i mean. Those moments are what always
+                            motivate me and keep me going. The dream is to be a fullstack Javascript Developer and have as much fun as
+                            possible
+                            while learning the necessary skills needed to get to the milestones set before me. Aside from writing beautiful
+                            codes i
+                            also enjoy meeting new people, sharing ideas, playing video games and watching movies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="inline">
+            <div class="container">
+                <div class="seperator"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="projects" class="projects-section">
+        <div class="projects">
+            <div class="title">
+                <h3>Projects</h3>
+            </div>
+            <div class="container">
+                <div class="card w-4">
+                    <div class="wrapper">
+                        <div class="inline">
+                            <div class="project-img">
+                                <img src="assets/images/0.05.png" alt="">  
+                            </div>
+                            <div class="project-name">
+                                <a href="http://melvinmanni.github.io/Agrow-Farm/" target="_blank" rel="noopener noreferrer">Agrow-Farm</a>
+                            </div>
+                            <div class="project-description">
+                                <p>Every buisness nneds a visually enticing landing page, that is what Agrow Farm serves as. This is a template/mock-up for an agricultural buisness landing page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-4">
+                    <div class="wrapper">
+                        <div class="inline">
+                            <div class="project-img">
+                                <img src="assets/images/0.04.png" alt="">
+                            </div>
+                            <div class="project-name">
+                                <a href="http://melvinmanni.github.io/Tesla-Cybertruck/" target="_blank" rel="noopener noreferrer">Tesla-Cybertruck</a>
+                            </div>
+                            <div class="project-description">
+                                <p>A landing page for tesla Tesla-Cybertruck</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card w-4">
+                    <div class="wrapper">
+                        <div class="inline">
+                            <div class="project-img">
+                                <img src="assets/images/0.03.png" alt="">
+                            </div>
+                            <div class="project-name">
+                                <a href="https://melvinmanni.github.io/Mountaineer-Site/" target="_blank" rel="noopener noreferrer">Guide Mountaineer</a>
+                            </div>
+                            <div class="project-description">
+                                <p>Guide mountaineer is a full page desktop site made without any additional frame works. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-4">
+                    <div class="wrapper">
+                        <div class="inline">
+                            <div class="project-img">
+                                <img src="assets/images/0.02.png" alt="">
+                            </div>
+                            <div class="project-name">
+                                <a href="https://melvinmanni.github.io/Simple-Multiplier/" target="_blank" rel="noopener noreferrer">Simple Multiplier</a>
+                            </div>
+                            <div class="project-description">
+                                <p>Simple multiplier incoporates Javascript DOM and event listeners to get values from the user and perform arithemetic operation based on the values keyed in by the user.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card w-4">
+                    <div class="wrapper">
+                        <div class="inline">
+                            <div class="project-img">
+                            <img src="assets/images/0.01.png" alt="">
+                            </div>
+                            <div class="project-name">
+                                <a href="https://melvinmanni.github.io/New-F-E-Project/" target="_blank" rel="noopener noreferrer">Meetz</a>
+                            </div>
+                            <div class="project-description">
+                                <p>Meetz is a project used to practice responsive double column webpage. It employs the use of flextbpx and
+                                    bootsrap for navigation bar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="inline">
+            <div class="container">
+                <div class="seperator"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact" style="width: 96%;" >
+        <section class="contact-section">
+            <div class="contact">
+                <div class="container">
+                    <div class="main-contact">
+                        <a class="foot-link" href="mailto:melvinnnamani@gmail.com"><i class="far fa-envelope"></i>
+                            <p class="cont">melvinnnamani@gmail.com</p>
+                        </a>
+                    
+    
+                            <a class="foot-link" href="tel:+2348076080771"> <i class="fas fa-phone-alt"></i>
+                            <p class="cont">08076080771</p>
+                        </a>
+                    
+    
+                            <a class="foot-link" href="https://github.com/MelvinManni"><i class="fab fa-github-square"></i>
+                            <p class="cont">melvinmanni.github</p>
+                        </a>                       
+                    </div>
+
+                    <div class="social-links">
+                        <a class="foot-link" href="https://www.linkedin.com/in/melvin-kosisochukwu-9557a9184/" target="_blank"
+                            class="linkedin-link"><i class="fab fa-linkedin linkedin soc"></i></a>
+                        <a class="foot-link" href="https://bit.ly/2rn9pcL" target="_blank"><i
+                                class="fab fa-facebook-square facebook soc"></i></a>
+                        <a class="foot-link" href="https://twitter.com/Melvin_manni" target="_blank"><i
+                                class="fab fa-twitter twitter soc"></i></a>
+                        <a class="foot-link" href="https://www.instagram.com/melvin_manni/" target="_blank"><i
+                                class="fab fa-instagram instagram soc"></i></a>
+
+                        <div class="newsletter">
+                            <form name="newsletter" method="POST" data-net>
+
+                                <label for="news"> <span><h3>NEWSLETTER</h3></span> Get latest update on progress and articles from me</label>
+                                <input id="news" class="mail-input" type="email" placeholder="Enter valid email" name="email" required >
+                                <input class="btn submit-btn" type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="foot">
+            <h5 class="title"> &copy; Copyright; Melvin-Manni <p id="foot-year"></p> </h5>
+        </div>
+    </footer>
+    <!--Javascript Src-->
+    <script src="src/app.js"></script>
+</body>
+</html>

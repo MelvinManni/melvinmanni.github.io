@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.col{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w-1{
+    width: 6.3%;
+}
+.w-2{
+    width: 14.6%;
+}
+
+.w-3{
+    width: 23%;
+}
+
+.w-4{
+    width:30.3%; 
+}
+
+.w-5{
+    width:39.6%; 
+}
+
+.w-6{
+    width:48%;
+}
+
+.w-7{
+    width:56.3%; 
+}
+
+.w-8{
+    width:64.6%;
+}
+
+.w-9{
+    width: 73%;
+}
+
+.w-10{
+    width: 81.3%;
+}
+
+.w-11{
+    width: 89.6%;
+}
+
+.w-12{
+    width:98%; 
+}
