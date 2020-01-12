@@ -323,13 +323,13 @@ span h3{
     #close-btn{
         margin-left: auto;
         padding-top: 5px;
-        padding-right: 30px;
+        padding-right: 10px;
     }
 
     #open-btn{
         margin-top: 0;
         display: block;
-        padding-right: 36px;
+        padding-right: 14px;
     }
     .navLogo{
         padding-top: 10px;
