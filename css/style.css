@@ -6,6 +6,14 @@ body{
     color: rgba(206, 205, 205,0.7);
 }
 
+.navLogo span a{
+    text-decoration: none;
+    font-family: 'josefin';
+    font-weight: 700;
+    font-size: 25px;
+    color: #907163;
+}
+
 .seperator{
     margin: 20px;
     height: 0px;
@@ -248,6 +256,84 @@ span h3{
     margin-bottom: 3px;
 }
 
+/*Contact form css*/
+
+.wrapper form{
+    text-align: center;
+    width: 100%;
+}
+
+.form-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-col{
+    width: 46%;
+}
+.form{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group{
+    width: 84%;
+    margin-top: 20px;
+}
+.form{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(55, 150, 131, 0.4)  ;
+}
+.form::placeholder{
+    font-family: 'cardo';
+    color: rgba(55, 150, 131, 1) ;
+    padding: 5px;
+}
+.btn-align button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-message{
+    font-family: 'cardo';
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: 5px;
+}
+
+.colored{
+    color: rgba(55, 150, 131, 1) ;
+    font-size: 18px;
+}
+
+.pad-up{
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.contact-message .title{
+    font-family: 'inco';
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.bigger{
+    font-size: 25px;
+}
+
 @media all and (max-width: 1024px){
     .card {
         width: 46%;
@@ -338,4 +424,34 @@ span h3{
     .social-links{
         margin-top: 50px;
     }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .form-col{
+        width: 100%;
+    }
+
+    .form-group{
+        margin-top: 0;
+    }
+
+    .form{
+        margin-top: 20px;
+    }
+
+    .btn-align button{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    form{
+        margin-top: 0 ;
+    }
+
 }

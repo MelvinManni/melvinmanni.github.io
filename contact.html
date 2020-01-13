@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav" id="nav">
+            <div class="container">
+                <div class="navLogo">
+                    <span><a href="index.html">Melvin</a></span>
+                </div>
+    
+                <div class="nav-items">
+                    <button class="toggle" id="open-btn"><i class="fas fa-bars"></i></button>
+                    <ul class="nav-item">
+                        <li class="nav-list">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+    
+                        <li class="nav-list">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+    
+                        <li class="nav-list">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+    
+                        <li class="nav-list">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Mobile Menu-->
+        <div class="mob-overlay" id="mob-overlay">
+            <button class="toggle" id="close-btn"><i class="fas fa-times"></i></button>
+            <div class="wrapper">
+                <div class="inline">
+                    <div class="mob-item" id="mob-item">
+    
+                        <a onclick="closeOv()" href="#portfolio" class="mob-link">Portfolio</a>
+    
+                        <a onclick="closeOv()" href="#about" class="mob-link">About</a>
+    
+                        <a onclick="closeOv()" href="#projects" class="mob-link">Projects</a>
+    
+                        <a onclick="closeOv()" href="#contact" class="mob-link">Contact</a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="wrapper">
+            <div class="inline">
+                <div class="contact-message">
+                    <h3 class="title">Hello <span class="bigger">!</span>,</h3>
+                    <h4>
+
+                    If you found yourself on this page that means you're trying to <span class="colored">get in touch with me</span>🙂. <br> <br>
+                    Go ahead and shoot me a message with your inquiry, question, request or advice. <br>
+                   </h4>
+
+                    <div class="pad-up">
+                        <span>I will reply within the next 24hours.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-page">
+        <div class="wrapper">
+            <form name="Contact" action="POST" data-netlify="true">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="text" name="first-name" class="form" placeholder="First Name">
+                        </div>
+                        <div class="form-col">
+                            <input type="text" name="last-name" class="form" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="email" class="form" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp"
+                                required>
+                        </div>
+                    
+                        <div class="form-col">
+                            <input type="number" name="email" class="form" id="exampleInputEmail1" placeholder="Phone Number"
+                                aria-describedby="emailHelp" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="subject" class="form" placeholder="Subject">
+                </div>
+            
+                <div class="form-group">
+                    <textarea name="message" class="form" id="exampleFormControlTextarea1" rows="5" placeholder="Enter Message"></textarea>
+                </div>
+            
+                <div class="form-group">
+                    <div class="btn-align">
+                        <button type="submit" class="btn w-4 ">Submit</button>
+                    </div>
+                </div>
+            
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <section>
+
+            <h5 class="title"> &copy; Copyright; Melvin-Manni <p id="foot-year"></p>
+            </h5>
+        </section>
+    </footer>
+    
+
+    <!--Javascript Src-->
+    <script src="src/app.js"></script>
+
+
+</body>
+</html>
