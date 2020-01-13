@@ -454,4 +454,10 @@ span h3{
         margin-top: 0 ;
     }
 
+    
+    .form-group{
+        margin-left:0;
+        margin-right: auto;
+    }
+
 }
