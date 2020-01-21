@@ -108,8 +108,20 @@ ul li {
 }
 
 .welcome-text{
-    padding-top: 30px;
-    padding-bottom: 13px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.skill-set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-div{
+    flex-direction: column;
+    width: 50%;
 }
 
 .welcome-section h1{
@@ -119,16 +131,17 @@ ul li {
 }
 
 .buttons{
-   margin-top:30px;
+   margin-top:0px;
+   padding-top: 0px;
 }
 
 .buttons button{
-    margin-top: 18px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 .skill-div{
-    margin-top: 35px;
+    margin-top: 5px;
 }
 .skill-head{
     color: rgba(206, 205, 205,1);
@@ -140,9 +153,9 @@ ul li {
     
 }
 .project-img img{
-    margin-top: 20px;
+    margin-top:0px;
     margin-bottom: 10px;
-    width: 230px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -155,7 +168,14 @@ ul li {
     padding-bottom: 20px;
 }
 
-.project-name a {
+.portfolio .title{
+    text-align: left;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    font-size: 13.5px;
+}
+
+.project-name p{
     color:#cecdcd ;
     font-family: 'inco';
     word-spacing: 3px;
@@ -342,7 +362,7 @@ span h3{
 
 @media all and (max-width: 720px){
     .card{
-        width: 90%;
+        width: 100%;
     }
 
     .contact-section{
