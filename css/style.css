@@ -108,9 +108,10 @@ ul li {
 }
 
 .welcome-text{
+    line-height: 6px;
     padding-top: 10px;
     padding-bottom: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 48px;
 }
 
 .skill-set{
