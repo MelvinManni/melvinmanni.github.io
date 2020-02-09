@@ -109,7 +109,7 @@ ul li {
 
 .welcome-text{
     line-height: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 48px;
 }
@@ -133,11 +133,11 @@ ul li {
 
 .buttons{
    margin-top:0px;
-   padding-top: 0px;
+   padding-top: 30px;
 }
 
 .buttons button{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -390,22 +390,36 @@ span h3{
     }
 
     .mob-item{
-        padding-top:46%;
+        margin-top:40%;
         margin-left: auto;
         margin-right: auto;
+        height: max-content;
+        width: 300px;
+        padding-bottom: 10px;
+        background: #fff;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .mob-top{
+        width: 100%;
+        height: 20px;
+        background-color: #379683;
     }
 
     .mob-link{
         text-decoration: none;
         font-family: 'lato';
         font-weight: 700;
-        font-size: 18px;
-        color: #cecdcd;
-        margin: 0;
+        font-size: 16.5px;
+        color: #000000;
         position: relative;
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
         transition: 0.5s ease;
+    }
+
+    .link-1{
+        margin-top: 5px;
     }
 
     .mob-link:hover{   
