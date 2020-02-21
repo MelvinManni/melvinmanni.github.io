@@ -362,6 +362,18 @@ span h3{
 }
 
 @media all and (max-width: 720px){
+
+    .sm-100{
+        width: 97%;
+        margin-left: 20px;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    .title{
+        text-align: left;
+        margin-left: 10px;
+    }
     .card{
         width: 100%;
     }

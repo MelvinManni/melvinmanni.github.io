@@ -48,6 +48,8 @@ body{
  background-color: #1c1c1c;
  background-size: cover;
  background-repeat: repeat;
+ margin: 0;
+ padding: 0;
 }
 
 section{
